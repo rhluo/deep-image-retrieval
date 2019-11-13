@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_store
+*.pt
+*.zip
+*.npy
+
+# C extensions
+*.so
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+bin/
+model/
+features/
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+
