@@ -57,7 +57,7 @@ def pool(x, pooling='mean', gemp=3):
 
 def torch_set_gpu(gpus, seed=None, randomize=True):
     if type(gpus) is int:
-            gpus = [gpus]
+           gpus = [gpus]
 
     assert gpus, 'error: empty gpu list, use --gpu N N ...'
 
